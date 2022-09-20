@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:"border-box";
+
+  }
+
+  .bg{
+    background-image:url('https://forextradingacademy.co.ke/wp-content/uploads/2020/11/pexels-burak-k-186461-scaled.jpg');
+    background-color: "rgba(0, 0, 0, 0)";
+    background-position:"center right" !important;
+    background-repeat: no-repeat;
+    background-size:"cover";
+    background-attachment: fixed;
+    min-width: "390px";
+    left: "0px";
+    width:"390px;" 
+  }
+  .bg2{
+    background-image:url("https://forextradingacademy.co.ke/wp-content/uploads/2020/11/pexels-pixabay-210607-scaled.jpg");
+    background-color: "rgba(0, 0, 0, 0)";
+    background-position:"center right" !important;
+    background-repeat: no-repeat;
+    background-size:"cover";
+    background-attachment: fixed;
+    min-width: "390px";
+    left: "0px";
+    width:"390px;" 
+  }
+
+  .inverted-border-radius {
+    position:relative;
+    width: "100%";
+    height: 200px;
+    overflow:hidden;
+    background: #522d5b;
+    clip-path: polygon(
+      0 0%,
+      0% 0,
+      100% 0,
+      100% 10%,
+      100% 90%,
+      150% 150%,
+      20% 90%,
+      0% 90%,
+      0% 10%)
+  }
+  .curve {
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+.section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding-top: 100px;
+  background: #3c31dd;
+}
+
+.curve::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    transform: translate(85%, 60%);
+
+}
+
+.curve::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    background-color: #3c31dd;
+    transform: translate(-10%, 50%);
+    z-index: -1;
+}
+ 
+  

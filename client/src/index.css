@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bg{
+  background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ),url('./assets/images/trading.jpg') !important;
+  background-position:"left";
+  background-repeat: "no-repeat";
+  overflow:"hidden" !important;
+  background-size: "cover" !important;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+.bg2{
+  background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ),url('./assets/images/tradingplatforms.jpg') !important;
+  width: "400px" !important;
+}
+.bg3{
+  background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ),url('./assets/images/tradinglogin.jpg'), no-repeat !important;
+  width: "100px" !important;
+  background-repeat:"no-repeat" !important;
+  background-size: "cover" !important;
+}
+.bg4{
+  background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ),url('./assets/images/subscribe.png'), no-repeat !important;
+  width: "100%" !important;
+  background-repeat:"no-repeat" !important;
+  background-size: "cover" !important;
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+.free{
+  background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ),url('./assets/images/image4.jpg'), no-repeat !important;
+  width: "100%" !important;
+  background-repeat:"no-repeat" !important;
+  background-size: "cover" !important;
+}
+.free2{
+  background:linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ),url('./assets/images/signals.png'), no-repeat !important;
+
+
+}
+.land{
+  position: "relative";
+  background-size: "cover";
+  background-position:"left";
+  background-repeat: "no-repeat";
+  width: "100%";
+  height:"100vh";
+  overflow: "hidden" ; 
+ }
+ .inactive{
+   background-color:"none" !important;
+ }
+ .active{
+   background-color:"red" !important;
+ }
+
+ .wrapper {
+  max-width: 100%;
+
+}
+
+.marquee {
+  white-space: nowrap;
+
+  display: flex;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee p {
+  display: flex;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
